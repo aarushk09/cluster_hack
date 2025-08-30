@@ -1,8 +1,8 @@
 # Digital Life Organizer
 
-A comprehensive Next.js application designed to organize your digital life. **Currently featuring Tasks Management** with more organizational features coming in future releases.
+A comprehensive Next.js application designed to organize your digital life. **Currently featuring Tasks Management, Notes Organization, and Calendar/Events** with more organizational features coming in future releases.
 
-## Current Features (v0.1.0)
+## Current Features (v0.2.0)
 
 ### 🎯 Tasks & Todos
 - Create, edit, and delete tasks
@@ -12,19 +12,23 @@ A comprehensive Next.js application designed to organize your digital life. **Cu
 - Organize pending and completed tasks
 - Local storage persistence
 
-## Upcoming Features (Future Releases)
-
-The following features are planned for future releases:
-
-### 📝 Notes (Coming in v0.2.0)
+### 📝 Notes Organization
 - Create and organize notes with categories
 - Add tags for better organization
 - Search through notes content
+- Edit notes inline
+- Rich categorization system
 
-### 📅 Calendar & Events (Coming in v0.3.0)
+### 📅 Calendar & Events
 - Schedule events and appointments
 - Multiple view modes (day, week, month)
 - Event categories with color coding
+- Add locations and descriptions
+- Upcoming events sidebar
+
+## Upcoming Features (Future Releases)
+
+The following features are planned for future releases:
 
 ### 🎯 Goals & Habits (Coming in v0.4.0)
 - Set and track personal goals
@@ -135,14 +139,13 @@ All data is stored locally in the browser's localStorage, ensuring:
 
 This project follows an incremental development approach:
 
-- **v0.1.0** - ✅ Tasks Management (Current)
-- **v0.2.0** - 📝 Notes Organization
-- **v0.3.0** - 📅 Calendar & Events
-- **v0.4.0** - 🎯 Goals & Habits
-- **v0.5.0** - 📁 Files & Documents
-- **v0.6.0** - 👥 Contacts Management
-- **v0.7.0** - 💰 Finance Tracking
-- **v0.8.0** - 🔖 Bookmarks Organization
+- **v0.1.0** - ✅ Tasks Management (Complete)
+- **v0.2.0** - ✅ Notes Organization + Calendar & Events (Current)
+- **v0.3.0** - 🎯 Goals & Habits (Next)
+- **v0.4.0** - 📁 Files & Documents
+- **v0.5.0** - 👥 Contacts Management
+- **v0.6.0** - 💰 Finance Tracking
+- **v0.7.0** - 🔖 Bookmarks Organization
 
 Each release will add a new major feature while maintaining all previous functionality.
 
@@ -173,4 +176,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built with ❤️ using Next.js and TypeScript**
 
-**Current Status**: 🎯 Tasks Management feature complete and ready to use!
+**Current Status**: 🎯 Tasks Management, 📝 Notes Organization, and 📅 Calendar & Events features complete and ready to use!
