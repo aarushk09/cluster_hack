@@ -1,8 +1,8 @@
 # Digital Life Organizer
 
-A comprehensive Next.js application designed to organize your digital life. **Currently featuring Tasks Management, Notes Organization, and Calendar/Events** with more organizational features coming in future releases.
+A comprehensive Next.js application designed to organize your digital life. **Currently featuring Tasks Management, Notes Organization, Calendar/Events, Goals & Habits Tracking, and Files Organization** with more organizational features coming in future releases.
 
-## Current Features (v0.2.0)
+## Current Features (v0.3.0)
 
 ### 🎯 Tasks & Todos
 - Create, edit, and delete tasks
@@ -26,19 +26,25 @@ A comprehensive Next.js application designed to organize your digital life. **Cu
 - Add locations and descriptions
 - Upcoming events sidebar
 
+### 🎯 Goals & Habits
+- Set and track personal goals
+- Build and maintain daily habits
+- Progress tracking with visual indicators
+- Habit streaks and completion tracking
+- Multiple goal categories
+- Target value tracking
+
+### 📁 Files & Documents
+- Organize files and folders
+- Create hierarchical folder structures
+- Link to external files and documents
+- File categorization system
+- Search and filter capabilities
+- Breadcrumb navigation
+
 ## Upcoming Features (Future Releases)
 
 The following features are planned for future releases:
-
-### 🎯 Goals & Habits (Coming in v0.4.0)
-- Set and track personal goals
-- Build and maintain habits
-- Progress tracking with visual indicators
-
-### 📁 Files & Documents (Coming in v0.5.0)
-- Organize files and folders
-- Create folder hierarchies
-- Link to external files
 
 ### 👥 Contacts (Coming in v0.6.0)
 - Manage personal and professional contacts
@@ -114,7 +120,11 @@ src/
 │   ├── layout.tsx           # Root layout
 │   └── page.tsx             # Main application page
 └── components/
-    └── TasksTab.tsx         # Tasks management (current feature)
+    ├── TasksTab.tsx         # Tasks management
+    ├── NotesTab.tsx         # Notes organization
+    ├── CalendarTab.tsx      # Calendar and events
+    ├── GoalsTab.tsx         # Goals and habits tracking
+    └── FilesTab.tsx         # Files and documents organization
 ```
 
 ## Current Implementation Details
@@ -140,22 +150,23 @@ All data is stored locally in the browser's localStorage, ensuring:
 This project follows an incremental development approach:
 
 - **v0.1.0** - ✅ Tasks Management (Complete)
-- **v0.2.0** - ✅ Notes Organization + Calendar & Events (Current)
-- **v0.3.0** - 🎯 Goals & Habits (Next)
-- **v0.4.0** - 📁 Files & Documents
-- **v0.5.0** - 👥 Contacts Management
-- **v0.6.0** - 💰 Finance Tracking
-- **v0.7.0** - 🔖 Bookmarks Organization
+- **v0.2.0** - ✅ Notes Organization + Calendar & Events (Complete)
+- **v0.3.0** - ✅ Goals & Habits + Files & Documents (Current)
+- **v0.4.0** - 👥 Contacts Management (Next)
+- **v0.5.0** - 💰 Finance Tracking
+- **v0.6.0** - 🔖 Bookmarks Organization
 
 Each release will add a new major feature while maintaining all previous functionality.
 
 ## Usage Tips
 
-1. **Add Your First Task**: Click the "Add Task" button to create your first task
-2. **Set Priorities**: Use the priority system to organize tasks by importance
-3. **Track Progress**: Mark tasks as completed to see your progress
-4. **Use Descriptions**: Add detailed descriptions for complex tasks
-5. **Set Deadlines**: Add due dates to keep track of time-sensitive tasks
+1. **Start with Tasks**: Add your first task to get familiar with the interface
+2. **Organize with Notes**: Create notes with categories and tags for better organization
+3. **Schedule Events**: Use the calendar to plan your day, week, or month
+4. **Set Goals**: Track personal goals and build daily habits with progress indicators
+5. **Organize Files**: Create folders and organize your digital documents
+6. **Use Search**: The search functionality works across all content types
+7. **Categorize Everything**: Use the built-in categorization systems consistently
 
 ## Browser Compatibility
 
@@ -176,4 +187,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built with ❤️ using Next.js and TypeScript**
 
-**Current Status**: 🎯 Tasks Management, 📝 Notes Organization, and 📅 Calendar & Events features complete and ready to use!
+**Current Status**: 🎯 Tasks Management, 📝 Notes Organization, 📅 Calendar & Events, 🎯 Goals & Habits, and 📁 Files & Documents features complete and ready to use!

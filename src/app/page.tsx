@@ -5,9 +5,9 @@ import {
   CheckSquare, 
   StickyNote, 
   Calendar, 
+  Target, 
+  FolderOpen, 
   // Future icons (will be imported when needed):
-  // Target, 
-  // FolderOpen, 
   // Users, 
   // DollarSign, 
   // Bookmark,
@@ -19,9 +19,9 @@ import {
 import TasksTab from '@/components/TasksTab'
 import NotesTab from '@/components/NotesTab'
 import CalendarTab from '@/components/CalendarTab'
+import GoalsTab from '@/components/GoalsTab'
+import FilesTab from '@/components/FilesTab'
 // Future features (will be added in subsequent commits):
-// import GoalsTab from '@/components/GoalsTab'
-// import FilesTab from '@/components/FilesTab'
 // import ContactsTab from '@/components/ContactsTab'
 // import FinanceTab from '@/components/FinanceTab'
 // import BookmarksTab from '@/components/BookmarksTab'
@@ -30,9 +30,9 @@ const tabs = [
   { id: 'tasks', name: 'Tasks', icon: CheckSquare, component: TasksTab },
   { id: 'notes', name: 'Notes', icon: StickyNote, component: NotesTab },
   { id: 'calendar', name: 'Calendar', icon: Calendar, component: CalendarTab },
+  { id: 'goals', name: 'Goals', icon: Target, component: GoalsTab },
+  { id: 'files', name: 'Files', icon: FolderOpen, component: FilesTab },
   // Future features (will be enabled in subsequent commits):
-  // { id: 'goals', name: 'Goals', icon: Target, component: GoalsTab },
-  // { id: 'files', name: 'Files', icon: FolderOpen, component: FilesTab },
   // { id: 'contacts', name: 'Contacts', icon: Users, component: ContactsTab },
   // { id: 'finance', name: 'Finance', icon: DollarSign, component: FinanceTab },
   // { id: 'bookmarks', name: 'Bookmarks', icon: Bookmark, component: BookmarksTab },

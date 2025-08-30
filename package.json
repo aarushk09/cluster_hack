@@ -1,8 +1,8 @@
 {
   "name": "digital-life-organizer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
-  "description": "Digital Life Organizer - Tasks, Notes, and Calendar Management (More features coming in future commits)",
+  "description": "Digital Life Organizer - Tasks, Notes, Calendar, Goals & Habits, and Files Management (More features coming in future commits)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
